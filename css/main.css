@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import 'reset.css';
+@import 'nav.css';
+@import 'icons.css';
+@import 'input.css';
+@import 'footer.css';
+@import 'buttons.css';
+
+html,body{
+    font-family: 'arial', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    background-color: white;
+}
+main {
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.search-bar {
+    display: flex;
+    margin: 0 auto;
+}
+.main-content > *:not(.search-bar) {
+    margin-top: 30px;
+}
+.lang p{
+    display: inline;
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* Navbar styles */
+nav {
+    margin: 5px;
+}
+.nav-content {
+    display: flex;
+    margin: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    align-items: center;
+}
+.nav-content > * {
+    display: inherit;
+    margin: 0 10px 0 10px;
+}

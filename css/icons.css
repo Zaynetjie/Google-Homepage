@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* Icons and Images styles */
+
+#user-icon {
+    display: flex;
+    background-color: orangered;
+    border-radius: 100%;
+    display: block;
+    padding: 10px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    align-items: center;
+    justify-items: center;
+}
+#user-icon p {
+    color: white;
+}

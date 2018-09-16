@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* Button styles */
+
+button {
+    font-size: 105%;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.55);
+    text-align: center;
+    width: 140px;
+    border: 1px rgba(0, 0, 0, 0) solid;
+    border-radius: 2px;
+    background-color: #f3f3f3;
+    padding: 10px 0px 10px 0px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    margin: 2.5px;
+}
+button:hover {
+    color: rgba(0, 0, 0, 0.8);
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+}
+.lang a {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #2114ad;
+}
+a:hover {
+    text-decoration: underline;
+}
