@@ -28,6 +28,11 @@ main {
 .main-content > *:not(.search-bar) {
     margin-top: 30px;
 }
+.info-check {
+    color: #2114ad;
+    display: block;
+    text-align: center;
+}
 .lang p{
     display: inline;
 }
