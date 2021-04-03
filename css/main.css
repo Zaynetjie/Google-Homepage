@@ -28,10 +28,12 @@ main {
 .main-content > *:not(.search-bar) {
     margin-top: 30px;
 }
-.info-check {
+a.info-check {
     color: #2114ad;
     display: block;
     text-align: center;
+    padding: 30px 0px 30px 0px;
+    margin-bottom: 32px;
 }
 .lang p{
     display: inline;
